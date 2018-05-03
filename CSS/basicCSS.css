@@ -1,0 +1,109 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Montez-Regular";
+    src: url('fonts/montez-regular-webfont.woff2') format('woff2'),
+         url('fonts/montez-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Miama";
+    src: url('fonts/miama-webfont.woff2') format('woff2'),
+         url('fonts/miama-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Blackjack";
+    src: url('fonts/blackjack-webfont.woff2') format('woff2'),
+         url('fonts/blackjack-webfont.woff') format('woff');
+}
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(48, 48, 48, 0.3);
+    /*background: linear-gradient(to top, rgba(48, 48, 48, 0), rgba(48, 48, 48, 1)); /* Standard syntax (must be last) */
+    /*
+    background: linear-gradient(to top, rgba(30, 30, 30, 0.1), rgba(0, 0, 0, 1)); /* Standard syntax (must be last) */
+    background-color: rgba(0,0,0,0);
+    background-color: rgba(48, 48, 48, 1);
+    color: aqua;
+    font-family: Montez-Regular;
+    position: fixed;
+    z-index: 99999;
+}
+
+/*---------------------------------------*/
+
+#navbar #website-name-box {
+    height: 100%;
+    width: 260px;
+    box-sizing: border-box;
+    float: left;
+    font-size: 2.3em;
+    padding-top: 8px;
+    padding-left: 25px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 0 0 100px 0;
+}
+
+#navbar #website-name-box:hover {
+    background-color: black;
+    cursor: pointer;  
+}
+
+/*---------------------------------------*/
+
+#navbar #navbar-items {
+    height: 100%;
+    min-width: 180px;
+    float: right;
+    box-sizing: border-box;
+    padding: 2px 30px 0px 70px; 
+    
+    background-color: black;
+    border-radius: 100px 0 0 0;
+}
+
+#navbar #navbar-items:hover {
+   
+}
+
+#navbar #navbar-items ul {
+    list-style-type: none;
+    
+    /*By default the list has some margin*/
+     
+    padding: 0;
+}
+
+#navbar #navbar-items ul li {
+    display: inline;
+    font-size: 2em;
+    padding: 8px;
+    margin-left: 30px;
+}
+
+#navbar #navbar-items ul li:hover {
+    /*background-color: black;*/
+    cursor: pointer;
+    border-bottom: 2px solid cyan;
+}
+
+
+/*---------------------------------------------------------------*/
+
+
+/* to account for the height of the navbar*/
+#padding-box {
+    width: 100%;
+    height: 80px;
+}
+
+
+/*---------------------------------------------------------------*/
+

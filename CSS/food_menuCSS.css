@@ -1,0 +1,26 @@
+.list-group-item {
+	background-color:#d3d3d3;
+	cursor : pointer;
+}
+
+#cart {
+	background-color: #dadada; 
+	display:none; 
+	margin:5%;
+	border-radius: 15px;
+	padding : 1%;
+}
+
+#cart-panel {
+	display:none;
+}
+
+.menushadow {
+	-moz-box-shadow:20px 30px 50px #2a2a2a; 
+  -webkit-box-shadow:20px 30px 50px #2a2a2a;
+  /* background-color: #fffcce;*/ 
+  /* overflow: scroll;   // Gives a scrollbar (both horizontal and vertical, even when the data doesnt overflow) */
+  /*overflow: auto; */ 
+}
+
+

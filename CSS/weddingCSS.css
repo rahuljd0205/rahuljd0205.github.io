@@ -1,0 +1,51 @@
+#main_head {
+	font-family: 'Shrikhand', sans-serif;
+	display: block;
+	margin: auto;
+	text-align: center;
+} 
+
+
+#extras {
+	margin : 0px 5px 0px 5px;
+}
+
+#extras p {
+	text-indent: 10px;
+}
+
+#accordion {
+	background-color: ;
+}
+
+.panel {
+	margin-top: 0px;
+	border:none;
+	color: black;
+}
+
+.panel > .panel-heading {
+
+    background-image: none;
+    background-color: ;
+    color: black;
+}
+
+.panel-body {
+    background-image: none;
+    background-color: ;
+    color: black;
+
+}
+
+.footer {
+	background-color: #333;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+body {
+	
+	
+	/*background-color: white;*/
+	color: black;
+	
+}
+
+#main_body {
+	margin-top: 100px;
+}
+
+.bday_pkg {
+	height: 700px;
+	background-color: #000f2a;
+}
+
+#bday_pkg1 {
+	border: 1px solid cyan;
+}
+
+#pkg_menu {
+	float: right;
+}
+
+#menu_ {
+	height: 600px; 
+	border: 1px solid cyan;
+	margin: 20px 0px 0px 40px;
+	
+}
+
+#details {
+	height: 400px; 
+	border: 1px solid cyan;
+	margin: 20px 0px 0px 40px;
+} 
+
+#text {
+	display: block;
+	margin: auto;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	/*font-family: 'Roboto Slab', serif;*/
+	/*font-family: font-family: 'ABeeZee', sans-serif;*/
+	/*font-family: font-family: 'Volkhov', serif;*/
+	word-spacing: 3px;
+	font-size: 1.25em;
+	margin:25px;
+	
+}
+
+#section_head {
+	padding-top: 25px;
+}
+
+#content {
+	padding-top: 25px;
+	padding-bottom: 25px;
+} 
+
+#content h3 {
+	margin-left: 5%;
+}
+
+#content ul {
+	float: right; 
+	margin-top: -3.5%; 
+	margin-bottom: 1.5%; 
+	margin-right: 5%;
+}
+
+.pkg-details {
+	padding: 15px;
+	/*border: 1px solid cyan;*/
+	height: 600px;
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

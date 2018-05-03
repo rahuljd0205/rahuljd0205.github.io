@@ -1,0 +1,61 @@
+#transparent-backdrop {
+    position: fixed;
+    top: 80px;
+    
+    height: calc(100vh - 80px);
+    width: 100%;
+    
+    background-color: rgba(48,48,48,0.5);
+    
+    z-index: 0;
+}
+
+#items-list {
+    position: fixed;
+    left: 5vw;
+    top: 15vh;
+    
+    width: 25%;
+    height: 78vh;
+    
+    margin-bottom: 2vh; 
+    
+    padding: 10px 10px 10px 20px;
+    
+    overflow: auto;
+
+    background-color: #F7701E;
+    
+    border-radius: 30px;
+    border: 2px solid black;
+    
+    font-family: 'Montez-Regular';
+    font-size: 2em;
+    font-weight: bold;
+    
+}
+
+.panel-body ul li {
+    padding: 10px;
+}
+
+.panel-body ul li span {
+    float: right;
+}
+
+.panel-body ul li:hover {
+    background-color: #484848;
+    color: wheat;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#foodmenu #panel-body li {
+    background-color: red;
+}
+
+#foodmenu #panel-body span {
+    float: right;
+}

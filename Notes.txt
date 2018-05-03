@@ -1,0 +1,12 @@
+Free fonts you can download from: fonts2u, fontpro
+
+A Great collection of fonts:
+https://www.elegantthemes.com/blog/resources/30-best-handwriting-fonts-for-web-designers
+
+How to use downloaded fonts ?
+https://www.balbooa.com/knowledgebase/32-documentation-faq-joomla/176-how-to-add-custom-font-to-website-through-fontface
+
+
+
+For any element with    position: fixed; the element after it (in the html code) will move behind it...
+see test.html

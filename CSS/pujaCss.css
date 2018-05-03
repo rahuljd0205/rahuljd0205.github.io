@@ -1,0 +1,78 @@
+#main_head {
+	font-family: 'Shrikhand', sans-serif;
+	display: block;
+	margin: auto;
+	text-align: center;
+} 
+
+#main_desc {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+#section1 {
+	/*background-color: #c8c8c8;*/
+	border-bottom: 2px solid black;
+}
+
+#section1 p {
+	font-size: 1.25em;
+	text-align: center;
+}
+
+#puja_description {
+	border-radius: 5px;
+	border : 1px solid #d0d0d0;
+    /*box-shadow: 0 0 0 3px #000;*/
+    /*border: 5px solid transparent;*/
+    scroll-behavior: auto;
+    resize: none;
+}
+
+#accordion {
+	background-color: #c9c9c9;
+}
+
+.panel {
+	margin-top: 0px;
+	border:none;
+	color: black;
+}
+
+.panel > .panel-heading {
+
+    background-image: none;
+    background-color: #c9c9c9;
+    color: black;
+}
+
+.panel-body {
+    background-image: none;
+    background-color: #c9c9c9;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

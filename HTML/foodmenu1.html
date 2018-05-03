@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Naivedya Catering Services</title>
+        <meta charset="utf-8">
+        
+        <!-- BOOTSTRAP FROM MAXCDN -->
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- The above line ensures proper rendering and touch zooming on mobile devices -->
+        <link rel="stylesheet" type="text/css" href="../CSS/homepageCSS.css" />
+        <link rel="stylesheet" type="text/css" href="../CSS/food_menuCSS.css"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/basicCSS.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+    </head>
+    
+    <body style="background-color: #011843">
+        
+        <!-- NAVBAR -->
+        
+        <div id="navbar" style="background-color: rgba(48,48,48,0.5)">
+            
+            <div id="website-name-box">
+                NAIVEDYA
+            </div>
+            
+            <div id="navbar-items">
+                <BR>
+                <ul style="font-size:1.15em; margin-right: 25px">
+                    
+                    <a href="homepage.html" style="color: aqua; text-decoration:none"><li style="margin-right: 15px">Home</li></a>
+                    <a href="foodmenu1.html" style="color: aqua; text-decoration:none"><li  style="margin-right: 15px">Food Menu</li>
+                    <a href="events.html" style="color: aqua; text-decoration:none"><li style="margin-right: 15px">Events</li></a>
+                    <a href="contactUs.html" style="color: aqua; text-decoration:none"><li style="margin-right: 15px">Contact Us</li></a>
+                    
+                    
+                </ul>
+                
+            </div>
+            
+        </div>
+        
+        <!-- NAVBAR ENDS -->
+        
+        <div id="padding-box"></div>
+        
+        <div class="container after-nav">
+            <BR>
+            <h2 style="text-align:center"><B style="font-family: 'Aclonica', sans-serif; font-size: 50px; color: #41e5ff"><i>Food Menu</i></B></h2>
+            <BR>
+            <div style="background-color: #fffca3; padding:3%; border-radius:10px">
+                <div class="row">
+                    <div class="col-md-8">
+                        <fieldset>
+                            <legend id="soup_head" style="cursor:pointer; background-color:#860000; padding:1px 5px 5px 30px; border-radius:5px">
+                                <h2 style="font-family: 'Shrikhand', cursive; color: #ffc051">Soup<span class="glyphicon glyphicon-chevron-down" style="float:right; margin-right:10px;"></span><span class="glyphicon glyphicon-chevron-up" style="float:right; margin-right:10px; display:none"></span></h2>
+                            </legend>
+                        </fieldset>
+                        <div id="soup_desc" style="display:block; text-indent:25px"><i><B>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<BR>
+                            This is some sensible text
+                            </i></B>
+                        </div>
+                        <div id="soup_panel" class="menushadow" style="margin-top:-10px; background-color:#d3d3d3; display:none; font-family: 'Oleo Script', cursive; font-size:20px">
+                            <ul class="list-group" style="background-color:#d3d3d3">
+                                <li onclick="func(1,1)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Manchow soup with noodles</li>
+                                <li onclick="func(1,2)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken clear soup</li>
+                                <li onclick="func(1,3)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. noodles soup</li>
+                                <li onclick="func(1,4)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken sweet corn soup</li>
+                                <li onclick="func(1,5)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Sweet corn plain soup</li>
+                                <li onclick="func(1,6)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Mushroom soup</li>
+                                <li onclick="func(1,7)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. clear soup</li>
+                                
+                            </ul>  
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="soup_img" src="Images/soup.jpg" class="img-rounded menushadow" height="200px" width="350px" style="float:right; border: 1px solid"/> 
+                        <BR>
+                            <div id="soup_desc_below_image" style="display:none; background-color:#d3d3d3; margin-top:200px; margin-right: 0px; padding:20px; margin-left:-12px; font-family: 'Fugaz One', cursive; word-spacing: 10px;">
+                                This is a soup. More precisely it is a Manchurian soup but this image is used to represent the entire soup family.
+                            </div>
+                    </div>
+                </div> 
+                
+                <BR><BR>
+                
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <img id="starters_img" src="Images/starters.jpg" class="img-rounded" height="200px" width="335px" style="float:right; border: 1px solid"/>
+                        <BR>
+                            <div id="starters_desc_below_image" style="display:none; background-color:#d3d3d3; margin-top:200px; margin-right: 0px; padding:20px; font-family: 'Fugaz One', cursive; word-spacing: 10px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <fieldset>
+                            <legend id="starters_head" style="cursor:pointer; background-color:#860000; padding:1px 5px 5px 30px; border-radius:5px">
+                                <h2 style="font-family: 'Shrikhand', cursive; color: #ffc051">Starters<span class="glyphicon glyphicon-chevron-down" style="float:right; margin-right:10px;"></span><span class="glyphicon glyphicon-chevron-up" style="float:right; margin-right:10px; display:none"></span></h2>
+                            </legend>
+                        </fieldset>
+                        <div id="starters_desc" style="display:block; text-indent:25px"><B><i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></B>
+                        </div>
+                        <div id="starters_panel" style="background-color:#d3d3d3; display:none">
+                            <ul class="list-group" style="background-color:#d3d3d3; font-family: 'Oleo Script', cursive;  font-size:20px">
+                                <li onclick="func(2,1)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f">Chicken Lollipop</li>
+                                <li onclick="func(2,2)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f">Chicken sathe</li>
+                                <li onclick="func(2,3)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f">Chicken crunchy kabab</li>
+                                <li onclick="func(2,4)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f">Chicken Shanghai</li>
+                                <li onclick="func(2,5)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f">Veg. finger</li>
+                                <li onclick="func(2,6)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f">Veg. Crispy</li>
+                                <li onclick="func(2,7)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f">Veg. Crunchy Kabab</li>
+                            </ul>  
+                        </div>
+                    </div>
+                    
+                </div> 
+                    
+                <BR><BR>    
+                
+                <div class="row">
+                    <div class="col-md-8">
+                        <fieldset>
+                            <legend id="noodles_head" style="cursor:pointer; background-color:#860000; padding:1px 5px 5px 30px; border-radius:5px">
+                                <h2 style="font-family: 'Shrikhand', cursive;color: #ffc051">Noodles<span class="glyphicon glyphicon-chevron-down" style="float:right; margin-right:10px;"></span><span class="glyphicon glyphicon-chevron-up" style="float:right; margin-right:10px; display:none"></span></h2>
+                            </legend>
+                        </fieldset>
+                        <div id="noodles_desc" style="display:block; text-indent:25px">
+                            <b><i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </i></b>
+                        </div>
+                        <div id="noodles_panel" style="background-color:#d3d3d3; display:none">
+                             <ul class="list-group" style="background-color:#d3d3d3; font-family: 'Oleo Script', cursive;  font-size:20px">
+                                <li onclick="func(3,1)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. (Fried/hakka) noodles</li>
+                                <li onclick="func(3,2)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. American Chopsey</li>
+                                <li onclick="func(3,3)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken Chopsey</li>
+                                <li onclick="func(3,4)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Prawns (Fried/hakka) noodles</li>
+                                <li onclick="func(3,5)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Schezwan noodles</li>
+                                <li onclick="func(3,6)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Mix (fried/hakka) noodles</li>
+                                <li onclick="func(3,7)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Mix Schezwan Noodles</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="noodles_img" src="Images/noodles.jpg" class="img-rounded" height="200px" width="350px" style="float:right; border: 1px solid"/> 
+                        <BR>
+                            <div id="noodles_desc_below_image" style="display:none; background-color:#d3d3d3; margin-top:200px; margin-right: 0px; padding:20px; margin-left:-12px; font-family: 'Fugaz One', cursive; word-spacing: 10px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                    </div>
+                </div> 
+                
+                <BR><BR>
+                
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <img id="vegetable_img" src="Images/vegetable.jpg" class="img-rounded" height="200px" width="335px" style="float:right; border: 1px solid"/>
+                        <BR>
+                            <div id="vegetable_desc_below_image" style="display:none; background-color:#d3d3d3; margin-top:200px; margin-right: 0px; padding:20px; font-family: 'Fugaz One', cursive; word-spacing: 10px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <fieldset>
+                            <legend id="vegetable_head" style="cursor:pointer; background-color:#860000; padding:1px 5px 5px 30px; border-radius:5px">
+                                <h2 style="font-family: 'Shrikhand', cursive; color: #ffc051">Vegetable<span class="glyphicon glyphicon-chevron-down" style="float:right; margin-right:10px;"></span><span class="glyphicon glyphicon-chevron-up" style="float:right; margin-right:10px; display:none"></span></h2>
+                            </legend>
+                        </fieldset>
+                        <div id="vegetable_desc" style="display:block; text-indent:25px">
+                            <B><i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </i></B>
+                        </div>
+                        <div id="vegetable_panel" style="background-color:#d3d3d3; display:none">
+                            <ul class="list-group" style="background-color:#d3d3d3; font-family: 'Oleo Script', cursive;  font-size:20px">
+                                <li onclick="func(4,1)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg/ Chilly</li>
+                                <li onclick="func(4,2)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Hong Kong</li>
+                                <li onclick="func(4,3)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Paneer Chilly</li>
+                                <li onclick="func(4,4)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Paneer Manchurian</li>
+                                <li onclick="func(4,5)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Mushroom (Chilly/Manchurian)</li>
+                                <li onclick="func(4,6)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Crispy</li>
+                                <li onclick="func(4,7)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Crunchy Kabab</li>
+                            </ul>   
+                        </div>
+                    </div>
+                    
+                </div>
+                    
+                <BR><BR>
+                    
+                <div class="row">
+                    <div class="col-md-8">
+                        <fieldset>
+                            <legend id="rice_head" style="cursor:pointer; background-color:#860000; padding:1px 5px 5px 30px; border-radius:5px">
+                                <h2 style="font-family: 'Shrikhand', cursive; color: #ffc051">Rice<span class="glyphicon glyphicon-chevron-down" style="float:right; margin-right:10px;"></span><span class="glyphicon glyphicon-chevron-up" style="float:right; margin-right:10px; display:none"></span></h2>
+                            </legend>
+                        </fieldset>
+                        <div id="rice_desc" style="display:block; text-indent:25px">
+                            <B><I>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </I></B>
+                        </div>
+                        <div id="rice_panel" style="background-color:#d3d3d3; display:none">
+                            <ul class="list-group" style="background-color:#d3d3d3; font-family: 'Oleo Script', cursive;  font-size:20px">
+                                <li onclick="func(5,1)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken Kespa Chilly Rice</li>
+                                <li onclick="func(5,2)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Prawns Fried Rice</li>
+                                <li onclick="func(5,3)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken Pecking fried rice</li>
+                                <li onclick="func(5,4)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Singapore rice</li>
+                                <li onclick="func(5,5)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Biryani</li>
+                                <li onclick="func(5,6)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Crispy</li>
+                                <li onclick="func(5,7)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Triple rice</li>
+                            </ul>  
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="rice_img" src="Images/rice.jpg" class="img-rounded" height="200px" width="350px" style="float:right; border: 1px solid"/> 
+                        <BR>
+                            <div id="rice_desc_below_image" style="display:none; background-color:#d3d3d3; margin-top:200px; margin-right: 0px; padding:20px; margin-left:-12px; font-family: 'Fugaz One', cursive; word-spacing: 10px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                    </div>
+                </div> 
+                
+                <BR><BR>
+                
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        <img id="sandwich_img" src="Images/sandwich.jpg" class="img-rounded" height="200px" width="335px" style="float:right; border: 1px solid"/> 
+                        <BR>
+                            <div id="sandwiches_desc_below_image" style="display:none; background-color:#d3d3d3; margin-top:200px; margin-right: 0px; padding:20px; font-family: 'Fugaz One', cursive; word-spacing: 10px;">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                    </div>
+                    
+                    <div class="col-md-8">
+                        <fieldset>
+                            <legend id="sandwiches_head" style="cursor:pointer; background-color:#860000; padding:1px 5px 5px 30px; border-radius:5px">
+                                <h2 style="font-family: 'Shrikhand', cursive; color: #ffc051">Sandwiches<span class="glyphicon glyphicon-chevron-down" style="float:right; margin-right:10px;"></span><span class="glyphicon glyphicon-chevron-up" style="float:right; margin-right:10px; display:none"></span></h2>
+                                
+                                <!-- Note that the changing of the dropdown arrow to an upward arrow (after clicking on the dropdown again) is REMAINING !!! -->
+                                
+                            </legend>
+                        </fieldset>
+                        <div id="sandwiches_desc" style="display:block; text-indent:25px">
+                            <B><I>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </I></B>
+                        </div>
+                        <div id="sandwiches_panel" style="background-color:#d3d3d3; display:none">
+                            <ul class="list-group" style="background-color:#d3d3d3; font-family: 'Oleo Script', cursive;  font-size:20px">
+                                <li onclick="func(6,1)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Club Sandwich</li>
+                                <li onclick="func(6,2)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Non Veg. Club Sandwich</li>
+                                <li onclick="func(6,3)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken grilled sandwich</li>
+                                <li onclick="func(6,4)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Veg. Club Sandwich</li>
+                                <li onclick="func(6,5)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Non Veg. Club Sandwich</li>
+                                <li onclick="func(6,6)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken grilled sandwich</li>
+                                <li onclick="func(6,7)" class="list-group-item" style="background-color:#ad0000; color :#ffcb6f;">Chicken grilled sandwich</li>
+                            </ul>   
+                        </div>
+                    </div>
+                    
+                </div> 
+            
+                
+            </div>
+        </div>
+        
+        <BR>
+            
+        <div style="background-color:#333">
+            <BR><BR><BR><BR><BR><BR>    
+        </div>
+        
+        
+        
+        
+    </body>
+
+    <script>
+
+        function func(category_id, item_id) {
+
+
+            var c_id = category_id;
+                //var item_name = id.innerHTML;
+                //alert(item_name);   //Doesnt work...
+
+            if (category_id == 2) {
+                item_id += 7;
+            } else if (category_id == 3) {
+                item_id += 21;
+            } else if (category_id == 4) {
+                item_id += 28;
+            } else if (category_id == 5) {
+                item_id += 35;
+            } else if (category_id == 6) {
+                item_id += 42;
+            } else if (category_id == 7) {
+                item_id += 49;
+            }
+
+                var xmlhttp = new XMLHttpRequest();
+                
+                xmlhttp.onreadystatechange = function () {
+                    
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                        
+                        xmlResponse = xmlhttp.responseXML;     
+                       
+                        var description = xmlResponse.getElementsByTagName("description");
+
+
+
+                        description = description[0].childNodes[0].nodeValue;
+
+                        //alert(item_id);
+
+                        var image_address = xmlResponse.getElementsByTagName("imageaddress");
+                        image_address = image_address[0].childNodes[0].nodeValue;
+
+                        //alert(image_address);                        
+
+                        if (category_id == 1) {
+                            var x = document.getElementById("soup_img");
+                            var y = document.getElementById("soup_desc_below_image");
+                        } else if (category_id == 2) {
+                            var x = document.getElementById("starters_img");
+                            var y = document.getElementById("starters_desc_below_image");
+                        } else if (category_id == 3) {
+                            var x = document.getElementById("noodles_img");
+                            var y = document.getElementById("noodles_desc_below_image");
+                        } else if (category_id == 4) {
+                            var x = document.getElementById("vegetable_img");
+                            var y = document.getElementById("vegetable_desc_below_image");
+                        } else if (category_id == 5) {
+                            var x = document.getElementById("rice_img");
+                            var y = document.getElementById("rice_desc_below_image");
+                        } else if (category_id == 6) {
+                            var x = document.getElementById("sandwich_img");
+                            var y = document.getElementById("sandwiches_desc_below_image");
+                        } 
+                        x.setAttribute("src",image_address);
+                        y.innerHTML = description;
+
+                        //alert(image_address);
+
+                        /*
+                        var x = document.getElementById("img");
+                        x.setAttribute("src",image_address);
+                        */
+                        //document.getElementById("description").innerHTML = description;
+                                    
+
+                    }
+                };
+
+                //alert(img_addr);
+
+                xmlhttp.open("GET", 'xmlfile.php?f_id='+item_id+'&c_id='+category_id, true);
+                xmlhttp.send();
+                
+
+
+        }
+
+        /*
+        function func(category_id, item_id) {
+
+
+                var xmlhttp = new XMLHttpRequest();
+                
+
+
+                xmlhttp.onreadystatechange = function () {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+
+                        xmlResponse = xmlhttp.responseXML;
+                       
+                        var description = xmlResponse.getElementsByTagName("description");
+                        description = description[0].childNodes[0].nodeValue;
+
+                        //alert(description);
+
+                        var image_address = xmlResponse.getElementsByTagName("imageaddress");
+                        image_address = image_address[0].childNodes[0].nodeValue;
+
+                        //alert(description);
+
+                        /*
+                        var x = document.getElementById("img");
+                        x.setAttribute("src",image_address);
+                        */
+                        //document.getElementById("description").innerHTML = description;
+                        
+        /*
+                        var correct_item_id = 0;            
+
+                        if (category_id == 1) {
+
+                            alert(description);
+                            alert(image_address);
+
+                            var x = document.getElementById("soup_img");
+                            x.setAttribute("src",image_address);
+                            document.getElementById("soup_desc_below_image").innerHTML = description;
+                            correct_item_id = item_id;
+
+                        } else if (category_id == 2) {
+
+                            correct_item_id = item_id + 7;
+                            alert(correct_item_id);
+
+                            alert(description);
+                            alert(image_address);
+
+                            var x = document.getElementById("starters_img");
+                            x.setAttribute("src",image_address);
+                            document.getElementById("starters_desc_below_image").innerHTML = description;
+
+
+                        } else if (category_id == 3) {
+
+                            var x = document.getElementById("noodles_img");
+                            x.setAttribute("src",image_address);
+                            document.getElementById("noodles_desc_below_image").innerHTML = description;
+                            correct_item_id = item_id + 14;
+
+                        } else if (category_id == 4) {
+
+                            var x = document.getElementById("vegetable_img");
+                            x.setAttribute("src",image_address);
+                            document.getElementById("vegetable_desc_below_image").innerHTML = description;
+                            correct_item_id = item_id + 21;
+
+                        } else if (category_id == 5) {
+                            
+                            var x = document.getElementById("rice_img");
+                            x.setAttribute("src",image_address);
+                            document.getElementById("rice_desc_below_image").innerHTML = description;
+                            correct_item_id = item_id + 28;
+
+                        } else if (category_id == 6) {
+
+                            var x = document.getElementById("sandwich_img");
+                            x.setAttribute("src",image_address);   
+                            document.getElementById("sandwiches_desc_below_image").innerHTML = description; 
+                            correct_item_id = item_id + 35;
+                        }       
+
+                    }
+                };
+
+                //alert(img_addr);
+
+
+
+                xmlhttp.open("GET", 'xmlfile.php?f_id='+item_id+'&c_id='+category_id, true);
+                xmlhttp.send();
+                
+    
+        }
+        */
+    
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  <!--To include the jquery library-->
+    <script>
+        $(document).ready(function(){
+            $("#soup_head").click(function(){
+                $("#soup_desc").toggle("slow");
+                $("#soup_desc_below_image").toggle("slow");
+                $("#soup_panel").slideToggle("slow");
+
+                $("#starters_panel").slideUp("slow");
+                $("#starters_desc_below_image").hide("slow");
+                $("#starters_desc").show("slow");
+
+                $("#sandwiches_panel").slideUp("slow");
+                $("#sandwiches_desc_below_image").hide("slow");
+                $("#sandwiches_desc").show("slow");
+                
+                $("#noodles_panel").slideUp("slow");
+                $("#noodles_desc_below_image").hide("slow");
+                $("#noodles_desc").show("slow");
+                
+                $("#vegetable_panel").slideUp("slow");
+                $("#vegetable_desc_below_image").hide("slow");
+                $("#vegetable_desc").show("slow");
+                
+                $("#rice_panel").slideUp("slow");
+                $("#rice_desc_below_image").hide("slow");
+                $("#rice_desc").show("slow");
+            });
+        });  
+        
+        $(document).ready(function(){
+            $("#starters_head").click(function(){
+                $("#starters_desc").toggle("slow");
+                $("#starters_desc_below_image").toggle("slow");
+                $("#starters_panel").slideToggle("slow");
+                
+                $("#soup_panel").slideUp("slow");
+                $("#soup_desc_below_image").hide("slow");
+                $("#soup_desc").show("slow");
+                
+                $("#sandwiches_panel").slideUp("slow");
+                $("#sandwiches_desc_below_image").hide("slow");
+                $("#sandwiches_desc").show("slow");
+                
+                $("#noodles_panel").slideUp("slow");
+                $("#noodles_desc_below_image").hide("slow");
+                $("#noodles_desc").show("slow");
+                
+                $("#vegetable_panel").slideUp("slow");
+                $("#vegetable_desc_below_image").hide("slow");
+                $("#vegetable_desc").show("slow");
+                
+                $("#rice_panel").slideUp("slow");
+                $("#rice_desc_below_image").hide("slow");
+                $("#rice_desc").show("slow");
+            });
+        });
+        
+        $(document).ready(function(){
+            $("#noodles_head").click(function(){
+                $("#noodles_desc").toggle("slow");
+                $("#noodles_desc_below_image").toggle("slow");
+                $("#noodles_panel").slideToggle("slow");
+
+                $("#starters_panel").slideUp("slow");
+                $("#starters_desc_below_image").hide("slow");
+                $("#starters_desc").show("slow");
+                
+                $("#soup_panel").slideUp("slow");
+                $("#soup_desc_below_image").hide("slow");
+                $("#soup_desc").show("slow");
+                
+                $("#sandwiches_panel").slideUp("slow");
+                $("#sandwiches_desc_below_image").hide("slow");
+                $("#sandwiches_desc").show("slow");
+				
+				$("#vegetable_panel").slideUp("slow");
+                $("#vegetable_desc_below_image").hide("slow");
+                $("#vegetable_desc").show("slow");
+                
+                $("#rice_panel").slideUp("slow");
+                $("#rice_desc_below_image").hide("slow");
+                $("#rice_desc").show("slow");
+            });
+        });
+        
+        $(document).ready(function(){
+            $("#vegetable_head").click(function(){
+                $("#vegetable_desc").toggle("slow");
+                $("#vegetable_desc_below_image").toggle("slow");
+                $("#vegetable_panel").slideToggle("slow");
+
+                $("#starters_panel").slideUp("slow");
+                $("#starters_desc_below_image").hide("slow");
+                $("#starters_desc").show("slow");
+				
+				$("#noodles_panel").slideUp("slow");
+                $("#noodles_desc_below_image").hide("slow");
+                $("#noodles_desc").show("slow");
+                
+                $("#soup_panel").slideUp("slow");
+                $("#soup_desc_below_image").hide("slow");
+                $("#soup_desc").show("slow");
+                
+                $("#sandwiches_panel").slideUp("slow");
+                $("#sandwiches_desc_below_image").hide("slow");
+                $("#sandwiches_desc").show("slow");
+				
+				$("#rice_panel").slideUp("slow");
+                $("#rice_desc_below_image").hide("slow");
+                $("#rice_desc").show("slow");
+            });
+        });
+        
+        $(document).ready(function(){
+            $("#rice_head").click(function(){
+                $("#rice_desc").toggle("slow");
+                $("#rice_desc_below_image").toggle("slow");
+                $("#rice_panel").slideToggle("slow");
+
+                $("#starters_panel").slideUp("slow");
+                $("#starters_desc_below_image").hide("slow");
+                $("#starters_desc").show("slow");
+				
+				$("#noodles_panel").slideUp("slow");
+                $("#noodles_desc_below_image").hide("slow");
+                $("#noodles_desc").show("slow");
+                
+                $("#vegetable_panel").slideUp("slow");
+                $("#vegetable_desc_below_image").hide("slow");
+                $("#vegetable_desc").show("slow");
+                
+                $("#soup_panel").slideUp("slow");
+                $("#soup_desc_below_image").hide("slow");
+                $("#soup_desc").show("slow");
+                
+                $("#sandwiches_panel").slideUp("slow");
+                $("#sandwiches_desc_below_image").hide("slow");
+                $("#sandwiches_desc").show("slow");
+            });
+        });
+        
+        $(document).ready(function(){
+            $("#sandwiches_head").click(function(){
+                $("#sandwiches_desc").toggle("slow");
+                $("#sandwiches_desc_below_image").toggle("slow");
+                $("#sandwiches_panel").slideToggle("slow");
+
+
+                $("#starters_panel").slideUp("slow");
+                $("#starters_desc_below_image").hide("slow");
+                $("#starters_desc").show("slow");
+ 				
+ 				$("#noodles_panel").slideUp("slow");
+                $("#noodles_desc_below_image").hide("slow");
+                $("#noodles_desc").show("slow");
+
+                $("#vegetable_panel").slideUp("slow");
+                $("#vegetable_desc_below_image").hide("slow");
+                $("#vegetable_desc").show("slow");
+                
+                $("#soup_panel").slideUp("slow");
+                $("#soup_desc_below_image").hide("slow");
+                $("#soup_desc").show("slow");
+
+                $("#rice_panel").slideUp("slow");
+                $("#rice_desc_below_image").hide("slow");
+                $("#rice_desc").show("slow");
+            });
+        });
+            
+        
+    </script>            
+                
+    
+</html>
